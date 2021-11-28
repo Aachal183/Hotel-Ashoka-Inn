@@ -1,0 +1,1175 @@
+/* for desktop */
+.whatsapp_floa {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:green;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_floa {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 30px;/*------------changes made here-------------*/
+        font-size: 22px;
+    }
+}
+/*---------------------  Header Section ---------------------*/
+/*.header
+{
+
+  position: sticky;        
+  margin-bottom: 0%;
+}
+body{
+  margin: 0;
+}
+.header {
+  padding: 0px 0px;
+  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .navbar {
+  padding-top: 102px;
+}*/
+.navbar
+{
+  background-color:Ivory;
+  padding-bottom: 0%;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+ 
+}
+.navbar .navbar-brand {
+  font-size: 0px;
+  padding-top: 0%;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: black;
+  font-size: 30px;
+}
+.nav-item a
+{
+    color: Black;
+}
+
+.nav-item :hover{
+  background-color: black;
+  color: white;
+}
+.selected{
+  background-color: black;
+  color: white;
+}
+.header button
+{
+text-align: right;
+}
+
+/*---------------------End  Header Section ---------------------*/
+
+/*---------------------  Intro Section ---------------------*/
+.bg
+{
+ /* background: linear-gradient(to bottom, #ccff66 0%, #00cc99 100%); */
+ /*background: linear-gradient(to left, #3333ff 0%, #00ffff 100%);*/
+  background: linear-gradient(to right, #66ffff 0%, #3399ff 100%);
+}
+#intro .title
+{   margin-top: 15px;
+    font-size:28px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+    text-shadow: 3px 3px 3px #ababab;
+   color:DarkSlateBlue;
+   
+}
+#intro .carousel-inner img {
+
+  height:480px;
+  width:100%;
+}
+#intro .color
+{
+ font-weight: bold;
+}
+/*---------------------End Intro Section ---------------------*/
+
+/*--------------------- About Section ---------------------*/
+#about .title
+{
+  margin-top: 60px;
+    font-size:28px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+   color:black;
+   text-decoration:underline;
+   font-variant: small-caps;
+}
+#about .para
+{
+  margin-top: 30px;
+  font-size:20px;
+   color:black;
+   font-family: 'Times New Roman', serif;
+   font-weight: bold;
+  
+}
+/*---------------------End About Section ---------------------*/
+
+/*---------------------service Section ---------------------*/
+#services .title
+{
+  margin-top: 50px;
+    font-size:28px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+   color:black;
+   text-shadow: 3px 3px 3px #ababab;
+   text-decoration:underline;
+   font-variant: small-caps;
+}
+#services .box
+{
+  box-shadow: 3px 3px 8px;
+  background-color:Beige;
+    margin-top:40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#services .font
+{
+font-size: 24px;
+}
+#services .h4
+{
+font-size: 16px;
+}
+#services .hh4
+{
+ font-size: 10px;
+}
+/*---------------------End service Section ---------------------*/
+
+/*---------------------amenities Section ---------------------*/
+#Amenities .title
+{
+  margin-top: 50px;
+    font-size:28px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+   color:black;
+   text-shadow: 3px 3px 3px #ababab;
+   text-decoration:underline;
+   font-variant: small-caps;
+}
+#Amenities .text
+{
+  font-size:20px;
+   color:black;
+   font-family: 'Times New Roman', serif;
+  margin-top: 30px;
+  font-weight: bold;
+}
+/*---------------------End Amenities Section ---------------------*/
+
+/*---------------------contact Section ---------------------*/
+#contact .title
+{
+  margin-top: 50px;
+    font-size:28px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+   color:black;
+   text-shadow: 3px 3px 3px #ababab;
+   text-decoration:underline;
+   font-variant: small-caps;
+}
+#contact .text
+{
+  font-size: 18px;
+  font-family: 'Times New Roman', serif;
+  color: black;
+  font-weight: bold;
+}
+#contact .info i {
+  font-size: 32px;
+  color: red;
+  float: left;
+  line-height: 1;
+}
+/*---------------------End contact Section ---------------------*/
+
+/*---------------------footer Section ---------------------*/
+
+#footer {
+  background:SteelBlue;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+#footer .footer-top {
+  background:Ivory;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  color:black;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color:black;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background:RoyalBlue;
+  color:black;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background:red;
+  color:black;
+}
+
+#footer .footer-top h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+  text-decoration:underline;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 2px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: black;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 28px;
+  color: black;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+#footer .main
+{
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color:#3333ff;
+}
+/*---------------------End footer Section ---------------------*/
+
+/*---------------------gallery Section ---------------------*/
+.gall
+{
+  background: linear-gradient(to left, #3333ff 0%, #00ffff 100%);
+}
+#single .font
+{
+  font-family: Verdana, sans-serif;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+/*---------------------End gallery Section ---------------------*/
+
+/*---------------------Img modal Section ---------------------*/
+              /* yaha se css code start h for image modal single img k liye i.e img ka zoom hoke dikhna with close btn */
+#myImg {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(255,255,255,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  margin-top: 15px;
+  margin-right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;            
+  }
+}                        
+                             /* yaha pe end hora image modal code for single image */                                                                            
+                             /* yaha se multiple img k liye css code start hora hai upto myImg 14 tk */
+/*---------- for myImg 1---------*/
+#myImg1{
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg1:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption1 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close1 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close1:hover,
+.close1:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 2---------*/
+#myImg2 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg2:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption2 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close2:hover,
+.close2:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*---------- for myImg 3---------*/
+#myImg3 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg3:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption3 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close3:hover,
+.close3:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*---------- for myImg 4---------*/
+#myImg4 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg4:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption4 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close4:hover,
+.close4:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 5---------*/
+#myImg5 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg5:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption5 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close5 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close5:hover,
+.close5:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 6---------*/
+#myImg6 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg6:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption6 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close6 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close6:hover,
+.close6:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 7---------*/
+#myImg7 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg7:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption7 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption7 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close7 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close7:hover,
+.close7:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 8---------*/
+#myImg8 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg8:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption8 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption8 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close8 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close8:hover,
+.close8:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 9---------*/
+#myImg9 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg9:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption9 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption9 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close9 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close9:hover,
+.close9:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 10---------*/
+#myImg10 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg10:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption10 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption10 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close10 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close10:hover,
+.close10:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 11---------*/
+#myImg11 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg11:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption11 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption11 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close11 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close11:hover,
+.close11:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 12---------*/
+#myImg12 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg12:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption12 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption12 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close12 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close12:hover,
+.close12:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 13---------*/
+#myImg13 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg13:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption13 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption13 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close13 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close13:hover,
+.close13:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------- for myImg 14---------*/
+#myImg14 {
+  border-radius: 5px black;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+#myImg14:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption14 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption14 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Button */
+.close14 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close14:hover,
+.close14:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*---------------------Img modal Section ---------------------*/
